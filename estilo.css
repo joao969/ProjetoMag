@@ -1,26 +1,26 @@
 *{
     margin: 0;
     overflow: hidden;
-    max-width: 100%;
-
+    max-width: 120%;
 }
 header{
     display: flex;
     position: absolute;
     max-width: 100%;
     width: 100%;
+    height: 20vh;
     max-height: 20vh;
     color: white ;
     overflow: hidden;
   }
   .logo{
-    background-color: white;
+    background-color: rgba(45, 192, 255, 0.734);
     display: inline-block;
     position: absolute;
     width: 4%;
-    top: 2vh;
+    top: 3vh;
     left: 2%;
-    border: solid 3px rgb(0, 0, 0);
+    border: solid 3px black;
     border-radius: 100%;
     
   }
@@ -28,9 +28,9 @@ header{
   .servico{
     text-decoration: none;
     display: block;
-    color: #d40000;
+    color: white;
     position: relative;
-    font-size: 130%;
+    font-size: 120%;
     font-weight: 1000;
     left: 80%;
     margin: 2vh;
@@ -39,24 +39,24 @@ header{
    
   }
   .servico:hover{
-    color: #ce0a83;
+    color: rgba(25, 122, 241, 0.834);
     
   }
   .contato{
    
     text-decoration: none;
     display:inline-flex;
-    color: #77b208;
+    color:white;
     position: relative;
-    font-size: 130%;
+    font-size: 120%;
     font-weight: 1000;
-    left: 50%;
+    left: 56%;
     margin: 2vh;
     top: 2vh;
     cursor: pointer;
   }
   .contato:hover{
-    color: #ce0a83;
+    color: rgba(25, 122, 241, 0.834);
   }
 
   
@@ -70,3 +70,53 @@ header{
     background-size: cover;
     overflow: hidden;
   }
+  h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    font-size: 300%;
+    top: 30vh;
+    left: 15%;
+  }
+  h2{
+    font-family:'Times New Roman', Times, serif;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    font-size: 200%;
+    top: 38vh;
+    right: 15%;
+  }
+  h3{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    font-size: 100%;
+    top: 85vh;
+    left: 20%;
+  }
+  
+  /* -------BOTAO REDESOCIAL-----*/
+.rede i {
+  display: inline-flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-around;
+  height: 5vh;
+  width: 2.3%;
+  background: white;
+  border: 2px solid rgb(255, 255, 255);
+  background-color:rgb(175, 129, 157) ;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  font-size: 100%;
+  cursor: pointer;
+  right: 3%;
+  top: 3vh;
+}
+
+.rede i:hover {
+  background-color: rgb(241, 46, 255);
+
+}

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    max-width: 120%;
+  background-color: black;
+}
+header{
+    display: flex;
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    height: 20vh;
+    max-height: 20vh;
+    color: white ;
+    overflow: hidden;
+  }
+  .logo{
+    background-color: rgba(45, 192, 255, 0.734);
+    display: inline-block;
+    position: absolute;
+    width: 4%;
+    top: 3vh;
+    left: 2%;
+    border: solid 3px black;
+    border-radius: 100%;
+    
+  }
+  
+
+ h5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4vh;
+    left: 10%;
+    top: 5vh;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+ }
+  
+.pag1{
+    display: inline-block;
+    width: 100%;
+    height: 230vh;
+   background-color: black;
+   overflow: hidden;
+  
+  }
+  h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    font-size: 300%;
+    top: 30vh;
+    left: 15%;
+  }
+  h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    font-size: 300%;
+    top: 42vh;
+    right: 20%;
+  }
+  h3{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    font-size: 100%;
+    top: 85vh;
+    left: 20%;
+  }
+
+ 
+  /* ============ GALERIA 1 ===============*/
+  .teste1{
+    
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    height: 70vh;
+    left: 5%;
+    top: 30vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../ProjetoMag/galeria/img1.jpg");
+    -webkit-background-size: cover;
+}
+  /* ============ TEXTOS 1 ===============*/
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10vh;
+    left: 60%;
+    top: 10vh;
+}
+h2{
+    top: 55vh;
+    font-size: 5vh;
+    left: 30%;
+}
+/* ============ GALERIA 2 ===============*/
+.teste2{
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    height: 80vh;
+    left: 50%;
+    top: 130vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../ProjetoMag/galeria/img1.jpg");
+    -webkit-background-size: cover;
+}
+  /* ============ TEXTOS 2 ===============*/
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10vh;
+    left: -45%;
+    top: 115vh;
+}
+.texto{
+    font-size: 5vh;
+    top: 130vh;
+    left: 10%;
+    color: aliceblue;
+    background-color: transparent;
+}
+/* ============ GALERIA 3 ===============*/
