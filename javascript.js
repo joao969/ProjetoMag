@@ -13,5 +13,7 @@ const sr= ScrollReveal({
   sr.reveal('.contato',{delay:200, origin:'top'});
   sr.reveal('.logo',{delay:200, origin:'top'});
   sr.reveal('i',{delay:200, origin:'top'});
+  sr.reveal('.teste1',{delay:200, origin:'top'});
+  sr.reveal('.botaozap',{delay:700, origin:'top'});
   
   
